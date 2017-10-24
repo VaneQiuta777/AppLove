@@ -158,7 +158,27 @@ button {
   display: inline-block;
   margin-left: 50px;
 }
-#block-3 img {
-  width: 400px;
-  height: 400px;
+#block-3 #computer-1 {
+  width: 500px;
+  height: 500px;
+  outline: 1px solid red;
+}
+/*#block-3 li {
+  text-align: center;
+  display: inline-block;
+  margin-top: 0;
+  margin-left: 10px;
+  margin-right: 20px;
+}*/
+.images-computers{
+  text-align: center;
+  display: inline-block;
+  width: 20%;
+  height: 200px;
+  margin: 2em 3em 1em;
+}
+#small-block-1 div {
+  display: inline-block;
+  text-align:center;
+
 }
