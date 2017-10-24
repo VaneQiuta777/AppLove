@@ -1,0 +1,149 @@
+/*CLASES REUTILIZABLES*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container:after {
+  clear: both;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+a {
+  color:#373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+header {
+  height: 60px;
+}
+header a {
+  /*outline: 2px solid yellow;*/
+  display: inline-block;
+  margin: 2em 1em 2em 1em;
+  text-transform: uppercase;
+}
+header #tab {
+  margin-left: 180px; /* tabulación del margen izquierdo*/
+}
+header img {
+ width: 55px;
+ height: 55px;
+ float: right;
+ margin: 2em 10em 1em;
+}
+#block-1 {
+  background-image: url("../assets/images/bg-home.jpg");
+  background-repeat: no-repeat;
+  background-position: 50px;
+  text-align: center;
+  width: 1300px;
+  height: 450px;
+  color: white;
+  text-transform: uppercase;
+  display: inline-block;
+}
+#block-1 h2{
+  margin: 2em 2em 1em;
+  font-size: 20px;
+}
+#block-1 h1{
+  margin: 1em 1em 0;
+  font-size: 43px;
+}
+#block-1 p{
+  margin: 0;
+  font-size: 15px;
+}
+button {
+  background-color: rgb(67, 182, 67);
+  padding: 15px;
+  color: white;
+  border: 0;
+  margin: 5em 2em 3em;
+  font-weight:600;
+}
+#block-2 {
+  background-color: rgb(253, 108, 132);
+  width: 1250px;
+  height: 450px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 50px;
+}
+#block-2 div {
+  display: inline-block;
+  margin: 0 6em;
+}
+#block-2 img {
+  margin-top: 40px;
+  height: 120px;
+  width: 120px;
+}
+#block-2 h5 {
+  line-height: 5px;
+  font-size: 10px;
+  margin: 1em 1em 1em;
+
+}
+#block-2 h6 {
+  /*outline: 1px solid yellow;*/
+  line-height: 10px;
+  margin: 8px;
+}
