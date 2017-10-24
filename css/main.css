@@ -12,6 +12,7 @@
 }
 
 body {
+  background-color: black;
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.71429;
@@ -71,7 +72,10 @@ a:hover {
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 header {
-  height: 60px;
+  height: 90px;
+  background-color: white;
+  width: 1249px;
+  margin: 0 3.1em; 
 }
 header a {
   /*outline: 2px solid yellow;*/
@@ -80,13 +84,13 @@ header a {
   text-transform: uppercase;
 }
 header #tab {
-  margin-left: 180px; /* tabulación del margen izquierdo*/
+ margin-left: 90px; /* tabulación del margen izquierdo*/
 }
 header img {
  width: 55px;
  height: 55px;
  float: right;
- margin: 2em 10em 1em;
+ margin: 1em 9em 1em;
 }
 #block-1 {
   background-image: url("../assets/images/bg-home.jpg");
@@ -146,4 +150,16 @@ button {
   /*outline: 1px solid yellow;*/
   line-height: 10px;
   margin: 8px;
+}
+#block-3 {
+  background-color: white;
+  width: 1250px;
+  height: 1500px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 50px;
+}
+#block-3 img {
+  width: 400px;
+  height: 400px;
 }
