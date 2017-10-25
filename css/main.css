@@ -13,9 +13,10 @@
 
 body {
   background-color: black;
-  margin: 0 auto;
   font-size: 16px;
+  font-family: 'Nunito Sans', sans-serif;
   line-height: 1.71429;
+  margin: 0 auto;
 }
 
 img {
@@ -70,16 +71,14 @@ a:hover {
 }
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
-header {
+.container header {
   height: 90px;
   background-color: white;
-  width: 1249px;
-  margin: 0 3.1em; 
 }
 header a {
   /*outline: 2px solid yellow;*/
-  display: inline-block;
-  margin: 2em 1em 2em 1em;
+  float: left;;
+  margin: 2em 1em 1.5em 1em;
   text-transform: uppercase;
 }
 header #tab {
@@ -89,18 +88,17 @@ header img {
  width: 55px;
  height: 55px;
  float: right;
- margin: 1em 9em 1em;
+ margin: 1em 8em 1em;
 }
-#block-1 {
+.container #block-1 {
   background-image: url("../assets/images/bg-home.jpg");
   background-repeat: no-repeat;
-  background-position: 50px;
+  background-position: 0;
+  text-transform: uppercase; 
+  float: left;
+  width: 1172px;
   text-align: center;
-  width: 1300px;
-  height: 450px;
   color: white;
-  text-transform: uppercase;
-  display: inline-block;
 }
 #block-1 h2{
   margin: 2em 2em 1em;
@@ -123,15 +121,16 @@ button {
   font-weight:600;
 }
 #block-2 {
-  background-color: rgb(253, 108, 132);
-  width: 1250px;
+  background-color: rgb(255, 132, 132);
+  width: 1172px; /*verificar el width, pues debe ser automático del contenedor*/
   height: 450px;
   text-align: center;
-  display: inline-block;
-  margin-left: 50px;
+  float: left;
+  /*margin-left: 50px;*/
+  color: white;
 }
 #block-2 div {
-  display: inline-block;
+  float: left;
   margin: 0 6em;
 }
 #block-2 img {
@@ -140,10 +139,9 @@ button {
   width: 120px;
 }
 #block-2 h5 {
-  line-height: 5px;
+  line-height: 4px;
   font-size: 10px;
   margin: 1em 1em 1em;
-
 }
 #block-2 h6 {
   /*outline: 1px solid yellow;*/
@@ -152,33 +150,45 @@ button {
 }
 #block-3 {
   background-color: white;
-  width: 1250px;
-  height: 1500px;
+  width: 1172px;
+  height: 2200px;
   text-align: center;
-  display: inline-block;
-  margin-left: 50px;
+  float: left;
+}
+#block-3 h2 {
+  outline: 1px solid red;
+  margin-left: 150px;
+}
+#block-3 h4 {
+  outline: 1px solid red;
+  margin-left: 150px;
 }
 #block-3 #computer-1 {
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 600px;
   outline: 1px solid red;
+  margin-left: 200px;
 }
-/*#block-3 li {
-  text-align: center;
-  display: inline-block;
-  margin-top: 0;
-  margin-left: 10px;
-  margin-right: 20px;
-}*/
-.images-computers{
-  text-align: center;
-  display: inline-block;
-  width: 20%;
-  height: 200px;
-  margin: 2em 3em 1em;
+#block-3 div {
+    float: left;
+    margin: 1em 0;
+    margin-left: 91px;
 }
-#small-block-1 div {
-  display: inline-block;
-  text-align:center;
-
+#block-3 img {
+    margin-top: 5px;
+    height: 220px;
+    width: 220px;
+}
+#block-3 h3 {
+    line-height: 4px;
+    font-size: 13px;
+    margin: 2em 0 1em;
+  }
+#block-4 {
+  background-color: rgb(58, 57, 57);
+  text-align: center;
+  line-height: 60px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: white
 }
